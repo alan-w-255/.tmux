@@ -291,6 +291,9 @@ unbind C-a
 unbind C-b
 set -g prefix C-a
 bind C-a send-prefix
+# C-` open buttom pane
+# prefix-z can maximize pane
+bind-key -n C-@ split-window -v \; resize-pane -y 10
 
 # move status line to top
 set -g status-position top
