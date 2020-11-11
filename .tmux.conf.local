@@ -300,6 +300,6 @@ set -g status-position top
 
 # use zsh
 set-option -g default-shell /bin/zsh
-# termguicolors
-set -g default-terminal "screen-256color"
+# fix italics not showing and use ture colors
+set -g default-terminal "xterm-256color"
 set-option -ga terminal-overrides '*256col*:Tc'
